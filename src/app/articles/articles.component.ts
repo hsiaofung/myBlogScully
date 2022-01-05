@@ -21,7 +21,7 @@ export class ArticlesComponent implements OnInit, OnDestroy {
     // );
     this.scullyService.available$.subscribe((posts: any) => {
       this.posts = posts.filter((post: any) => post.title);
-      //test
+      //test11
     });
   }
 
